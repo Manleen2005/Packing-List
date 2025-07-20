@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    border: 0;
+}
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+#item{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+
+.additem{
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.packingList{
+    height: 50vh;
+    background-color:bisque;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    padding: 2rem;
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+footer{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
